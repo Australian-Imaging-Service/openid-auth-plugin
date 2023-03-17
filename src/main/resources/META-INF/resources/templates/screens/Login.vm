@@ -180,7 +180,7 @@ $page.setTitle("$siteId - Please Login")
     </div>
 
     <div class="login-box-container-fixed">
-        <div id="login_box">
+        <div id="login_box" style="$usernamePasswordStyleStr">
 
         #if($data.getMessage())
             <div class="message" style="border-bottom: 0">
